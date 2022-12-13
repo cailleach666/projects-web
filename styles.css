@@ -1,0 +1,38 @@
+.card{
+    border: blueviolet;
+    outline: none;
+    -webkit-box-shadow: -8px 6px 81px -70px rgba(0,0,0,0.75);
+-moz-box-shadow: -8px 6px 81px -70px rgba(0,0,0,0.75);
+box-shadow: -8px 6px 81px -70px rgba(0,0,0,0.75);
+
+}
+.card p{
+    color:rgba(0, 0, 0, 0.719);
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: gray;
+    color:black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+h1{
+    color:blueviolet;
+}
+h4{
+    color:blueviolet;
+}
+.btn btn-dark{
+    color:blueviolet;
+}
+
+.card:hover .circle{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
